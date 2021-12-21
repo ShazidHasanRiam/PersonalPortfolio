@@ -583,7 +583,7 @@ img {
     transform: translate(6px, -7px);
 }
 
-.qualification[data-content] {
+.qualification [data-content] {
     display: none;
 }
 
@@ -591,6 +591,11 @@ img {
     display: block;
 }
 
+.qualification-button.qualification-active {
+    color: var(--first-color);
+}
+
+/* Services */
 
 /*SERVICES */
 
