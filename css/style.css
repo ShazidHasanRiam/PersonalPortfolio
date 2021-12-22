@@ -342,6 +342,11 @@ img {
     transition: 0.3s;
 }
 
+.button-icon {
+    margin-left: .5rem;
+    /* margin-right: 1.5rem; */
+}
+
 .button--flex {
     display: inline-flex;
     align-items: center;
