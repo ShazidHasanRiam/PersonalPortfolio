@@ -344,7 +344,6 @@ img {
 
 .button-icon {
     margin-left: .5rem;
-    /* margin-right: 1.5rem; */
 }
 
 .button--flex {
@@ -711,7 +710,10 @@ img {
 }
 
 /* Active Modal */
-
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
 
 /* PORTFOLIO */
 
