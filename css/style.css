@@ -343,7 +343,18 @@ img {
 }
 
 .button-icon {
-    margin-left: .5rem;
+    margin-left: var(--mb-0-5);
+    font-size: 1.25rem;
+    transition: 0.3s;
+}
+
+.button--white {
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover {
+    background-color: #FFF;
 }
 
 .button--flex {
@@ -776,6 +787,33 @@ img {
 }
 
 /*PROJECT IN MIND */
+.project {
+    text-align: center;
+}
+
+.project-bg {
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project-description {
+    margin-bottom: var(--mb-1-5);
+}
+
+.project-title,
+.project-description {
+    color: white;
+}
+
+.project-img {
+    width: 265px;
+    justify-self: center;
+}
 
 
 /* TESTIMONIAL */
