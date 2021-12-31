@@ -61,7 +61,7 @@ tabs.forEach((tab) => {
     });
 
     target.classList.add("qualification-active");
-    tab.forEach((tab) => {
+    tabs.forEach((tab) => {
       tab.classList.remove("qualification-active");
     });
 
@@ -110,7 +110,11 @@ let swiperPortfolio = new Swiper(".portfolio-container", {
 let swiperTestimonial = new Swiper(".testimonial-container", {
   loop: true,
   grabCursor: true,
-  spaceBetween: 48,
+  spaceBetween: 60,
+  // effect: "fade",
+  // grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "1",
 
   pagination: {
     el: ".swiper-pagination",
@@ -122,6 +126,11 @@ let swiperTestimonial = new Swiper(".testimonial-container", {
     568: {
       slidesPerView: 2,
     },
+  },
+
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
   },
 });
 

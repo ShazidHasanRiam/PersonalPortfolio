@@ -665,7 +665,7 @@ img {
 .services-content {
     position: relative;
     background-color: var(--container-color);
-    padding: 3.5rem 1.25rem 1.5rem;
+    padding: 1.5rem 1.25rem;
     border-radius: 0.25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     transition: 0.3s;
@@ -1034,6 +1034,12 @@ img {
     background-color: var(--text-color-light);
 }
 
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: var(--smaller-font-size);
+}
+
 /*MEDIA QUERIES */
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -1113,6 +1119,10 @@ img {
     .home-image {
         order: 1;
         justify-self: center;
+    }
+
+    .services-content {
+        padding: 1.5rem 1.25rem;
     }
 
     .about-container,
@@ -1241,6 +1251,10 @@ img {
         justify-content: center;
     }
 
+    .services-content {
+        padding: 1.5rem 1.25rem;
+    }
+
     .services-icon {
         font-size: 2rem;
     }
@@ -1322,6 +1336,10 @@ img {
 
     .services-container {
         grid-template-columns: repeat(3, 238px);
+    }
+
+    .services-content {
+        padding: 1.5rem 1.25rem;
     }
 
     .portfolio-content {
