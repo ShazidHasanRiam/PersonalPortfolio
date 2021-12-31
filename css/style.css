@@ -143,7 +143,7 @@ img {
 /* REUSABLE CSS CLASSES */
 .section {
     padding: 2rem 0 4rem;
-    margin-top: 50;
+    margin-top: 30;
 }
 
 .section-title {
@@ -282,7 +282,7 @@ img {
 
 .home-content {
     grid-template-columns: .5fr 3fr;
-    padding-top: 3.5rem;
+    padding-top: 1rem;
     align-items: center;
 }
 
@@ -408,6 +408,17 @@ img {
 .button--link:hover {
     background-color: transparent;
     color: var(--first-color-alt);
+}
+
+.modal-btn {
+    font-size: var(--body-font);
+    font-weight: var(--font-medium);
+    margin-top: var(--mb-1-5);
+    /* padding-top: -50%;
+    padding-bottom: -50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -724,6 +735,7 @@ img {
 
 .services-modal-services {
     row-gap: 1rem;
+    font-size: var(--small-font-size);
 }
 
 .services-modal-service {
@@ -747,7 +759,7 @@ img {
 }
 
 .services-modal-icon {
-    color: var(--first-color);
+    /* color: var(--first-color); */
     margin-right: var(--mb-0-25);
 }
 
@@ -1122,9 +1134,18 @@ img {
         justify-self: center;
     }
 
+    .services-container {
+        grid-template-columns: repeat(1, 218px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .services-content {
         padding: 1.5rem 1.25rem;
+        padding-right: 3.5rem;
     }
+
 
     .about-container,
     .skills-container,
@@ -1252,12 +1273,15 @@ img {
     }
 
     .services-container {
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(1, 218px);
+        display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .services-content {
         padding: 1.5rem 1.25rem;
+        padding-right: 3.5rem;
     }
 
     .services-icon {
@@ -1340,11 +1364,15 @@ img {
     }
 
     .services-container {
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(1, 218px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .services-content {
         padding: 1.5rem 1.25rem;
+        padding-right: 3.5rem;
     }
 
     .portfolio-content {
