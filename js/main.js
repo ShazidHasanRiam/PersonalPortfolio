@@ -93,14 +93,6 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
-modalCloses2.forEach((modalClose) => {
-  modalClose.addEventListener("click", () => {
-    modalViews.forEach((modalView) => {
-      modalView.classList.remove("active-modal");
-    });
-  });
-});
-
 // Portfolio Swiper
 let swiperPortfolio = new Swiper(".portfolio-container", {
   cssMode: true,
