@@ -105,6 +105,11 @@ let swiperPortfolio = new Swiper(".portfolio-container", {
     el: ".swiper-pagination",
     clickable: true,
   },
+
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
 });
 
 // Testimonial
@@ -112,8 +117,6 @@ let swiperTestimonial = new Swiper(".testimonial-container", {
   loop: true,
   grabCursor: true,
   spaceBetween: 60,
-  // effect: "fade",
-  // grabCursor: true,
   centeredSlides: true,
   slidesPerView: "1",
 
