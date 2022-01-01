@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /* Colors*/
-    --hue-color: 250;
+    --hue-color: 230;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -992,7 +992,7 @@ img {
 .footer-copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #FFF;
     margin-top: var(--mb-3);
 }
 
@@ -1321,7 +1321,7 @@ img {
     }
 
     .project-data {
-        padding-top: 0.8rem;
+        padding-bottom: 2rem;
     }
 
     .footer-container {
@@ -1389,6 +1389,10 @@ img {
 
     .swiper-button-next {
         right: -3.5rem;
+    }
+
+    .project-data {
+        padding-bottom: 2rem;
     }
 
     .swiper-container-horizontal>.swiper-pagination-bullets {
